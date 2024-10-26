@@ -10,42 +10,17 @@
 | 19/0133813  |  Italo Bruno Avelino da Silva Melo |
 | 19/0085584  |  Carlos Eduardo Mendes de Mesquita |
 
-## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+## Questões
+| Nome                                                                                                                                                                | Nível   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+|          | Média   |
+|          | Média   |
+|          | Difícil |
+|          | Difícil |
 
-- Nível: Médio
-- Conteúdo: 
-- Explicação: [Explicação 01]()
-- Implementação: [Código 01]()
-- Vídeo: [Implementação 01]() 
-- Autor: [Italo Bruno](https://github.com/ItaloBrunoM)
+## Vídeo
 
-## Problema 2: []()
-
-- Nível: Difícil
-- Conteúdo: 
-- Explicação: [Explicação 02]()
-- Implementação: [Código 02](hstao02.cpp)
-- Vídeo: [Implementação 02]()
-- Autor: [Italo Bruno](https://github.com/ItaloBrunoM)
-
-## Problema 3: []()
-
-- Nível: Médio
-- Conteúdo: 
-- Explicação: [Explicação 03]()
-- Implementação: [Código 03]()
-- Vídeo: [Implementação 03]()
-- Autor: [Carlos Eduardo](https://github.com/)
-
-## Problema 4: []()
-
-- Nível: Difícil
-- Conteúdo: 
-- Explicação: [Explicação 04]()
-- Implementação: [Código 04]()
-- Vídeo: [Implementação 04]()
-- Autor: [Carlos Eduardo](https://github.com/)
+[Vídeo aqui]()
 
 ## Screenshots
 
