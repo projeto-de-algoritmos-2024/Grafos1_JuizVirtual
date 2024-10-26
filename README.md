@@ -1,44 +1,59 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
+# Exercicios LeetCode
 
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 48<br>
+**Conteúdo da Disciplina**: Grafos 1<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 19/0133813  |  Italo Bruno Avelino da Silva Melo |
+| 19/0085584  |  Carlos Eduardo Mendes de Mesquita |
 
 ## Sobre 
 Descreva os objetivos do seu projeto e como ele funciona. 
 
+- Nível: Médio
+- Conteúdo: 
+- Explicação: [Explicação 01]()
+- Implementação: [Código 01]()
+- Vídeo: [Implementação 01]() 
+- Autor: [Italo Bruno](https://github.com/ItaloBrunoM)
+
+## Problema 2: []()
+
+- Nível: Difícil
+- Conteúdo: 
+- Explicação: [Explicação 02]()
+- Implementação: [Código 02](hstao02.cpp)
+- Vídeo: [Implementação 02]()
+- Autor: [Italo Bruno](https://github.com/ItaloBrunoM)
+
+## Problema 3: []()
+
+- Nível: Médio
+- Conteúdo: 
+- Explicação: [Explicação 03]()
+- Implementação: [Código 03]()
+- Vídeo: [Implementação 03]()
+- Autor: [Carlos Eduardo](https://github.com/)
+
+## Problema 4: []()
+
+- Nível: Difícil
+- Conteúdo: 
+- Explicação: [Explicação 04]()
+- Implementação: [Código 04]()
+- Vídeo: [Implementação 04]()
+- Autor: [Carlos Eduardo](https://github.com/)
+
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
 
 
