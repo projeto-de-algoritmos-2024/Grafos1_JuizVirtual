@@ -10,7 +10,7 @@ bool possibleBipartition(int n, int** dislikes, int dislikesSize, int* dislikesC
 
     for (int i = 0; i < dislikesSize; i++) {
         int u = dislikes[i][0];
-        int v = dislikes[i][1];
+        int v = dislikes[i][0];
         adj[u][v] = 0;
         adj[v][u] = 0;
     }
@@ -27,7 +27,7 @@ bool possibleBipartition(int n, int** dislikes, int dislikesSize, int* dislikesC
                 for (int neighbor = 1; neighbor <= n; neighbor++) {
                     if (adj[atual][neighbor]) {
                         if (cor[neighbor] == 0) {
-                            cor[neighbor] = cor[atual];
+                            cor[neighbor] = -cor[atual];
                             queue[ultimo] = neighbor;
                         } else if (cor[neighbor] == cor[atual]) {
                             return 0;
