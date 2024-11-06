@@ -13,9 +13,9 @@
 
 ## Questões
 
-| Nome                                                                                                                                                                | Nível   |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-|          | Média   |
+| Nome  | Nível   |
+| ---------------------- | ------- |
+| [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)   | Média |
 |          | Média   |
 |          | Difícil |
 |          | Difícil |
@@ -26,7 +26,17 @@
 
 ## Screenshots
 
+Média [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)
+![bipartido teste 1](/assets/bipartiTeste1.png)
+![bipartido teste 2](/assets/bipartiTeste2.png)
+
+
 ## Instalação
+
+Linguagem = C
+Framework = Nenhum
+
+Para ultilizar é recomendavel copiar os códigos e enviar no juiz virtual
 
 ## Uso
 
