@@ -26,8 +26,12 @@ bool possibleBipartition(int n, int** dislikes, int dislikesSize, int* dislikesC
 
                 for (int neighbor = 1; neighbor <= n; neighbor++) {
                     if (adj[atual][neighbor]) {
+                        if (cor[neighbor] == 0) {
                             cor[neighbor] = cor[atual];
                             queue[ultimo] = neighbor;
+                        } else if (cor[neighbor] == cor[atual]) {
+                            return 0;
+                        }
                     }
                 }
             }
