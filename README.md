@@ -26,11 +26,11 @@
 
 ## Screenshots
 
-Média [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)
+Média [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)</br>
 ![bipartido teste 1](/assets/bipartiTeste1.png)
 ![bipartido teste 2](/assets/bipartiTeste2.png)
 
-Difícil [2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)
+Difícil [2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)</br>
 ![Maior Ciclo teste 1](/assets/MaiorTeste1.png)
 ![Maior Ciclo teste 1](/assets/MaiorTeste2.png)
 
