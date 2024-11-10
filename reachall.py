@@ -2,8 +2,11 @@ from collections import deque # biblioteca para usar listas como filas
 from typing import List 
 class Solution:
     def findSmallestSetOfVertices(self, n: int, edges: List[List[int]]) -> List[int]:
+        # tentativa que vejo como gambiarra: transformar a lista de booleanos em um dicionario, pelo que vi
+        # na documentacao, ele e usado quando se precisa de chaves, nao sei se vai bastar para corrigir a 
+        # falha no leetcode, mas vou tentar.
         
-        caminho = []
+        caminho = {}
         
         for i in range(n):
             
