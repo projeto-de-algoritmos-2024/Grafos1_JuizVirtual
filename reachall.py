@@ -17,4 +17,4 @@ class Solution:
             para = edge[1]
             if para in grafo :
                 grafo.remove(para)
-        return grafo
+        return List(grafo)
