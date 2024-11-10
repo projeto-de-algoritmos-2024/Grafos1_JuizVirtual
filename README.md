@@ -22,22 +22,22 @@
 
 ## Vídeo
 
-[Vídeo aqui](a)
+[Vídeo explicando as questões 886 e 2360](https://youtu.be/Cz5IGTLF4xE?si=pq2T7x405-VpLEep)
 
 ## Screenshots
 
-Média [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)
-![bipartido teste 1](/assets/bipartiTeste1.png)
-![bipartido teste 2](/assets/bipartiTeste2.png)
+Média [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)</br>
+![bipartido teste 1](/assets/bipartiTeste1.png)</br>
+![bipartido teste 2](/assets/bipartiTeste2.png)</br>
 
-Difícil [2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)
-![Maior Ciclo teste 1](/assets/MaiorTeste1.png)
-![Maior Ciclo teste 1](/assets/MaiorTeste2.png)
+Difícil [2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)</br>
+![Maior Ciclo teste 1](/assets/MaiorTeste1.png)</br>
+![Maior Ciclo teste 1](/assets/MaiorTeste2.png)</br>
 
 ## Instalação
 
-Linguagem = C
-Framework = Nenhum
+Linguagem = C </br>
+Framework = Nenhum</br>
 
 Para ultilizar é recomendavel copiar os códigos e enviar no juiz virtual
 
