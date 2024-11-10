@@ -16,9 +16,9 @@
 | Nome  | Nível   |
 | ---------------------- | ------- |
 | [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)   | Média |
-|          | Média   |
+| [1557. Minimum Number of Vertices to Reach all Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)        | Média   |
 | [2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)| Difícil |
-|          | Difícil |
+| [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/description/)        | Difícil |
 
 ## Vídeo
 
