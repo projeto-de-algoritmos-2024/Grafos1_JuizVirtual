@@ -55,10 +55,10 @@ Framework = Nenhum</br>
 
 Para utilizar é recomendavel copiar os códigos e enviar no juiz virtual
 
-Linguagem = Python
-Framework = Nenhum
+Linguagem = Python </br>
+Framework = Nenhum </br>
 
-Para utilizar basta ter o python3.x instalado, ou então copiar e colar o código no juiz virtual
+Para utilizar basta ter o python3.x instalado, ou então copiar e colar o código no juiz virtual</br>
 ## Uso
 
 ## Outros
