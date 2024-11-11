@@ -59,4 +59,27 @@ class Solution:
         # continuar a questao utilizando find e union quando necessario
          caminhoA = UnionFind(n)
          caminhoB = UnionFind(n)
-         
+         arestasI = 0 # esse e o contador de arestas que precisamos manter no grafo
+        # nao sao nomes significativos a priori, mas t e para o tipo de aresta ou caminho,
+        # i  e para onde ele se inicia e o refere-se ao objetivo do caminho
+         for t,i,o in edges :
+             if t == 3 :
+                 arestasI += (caminhoA.UnionBySize(i,o) | caminhoB.UnionBySize(i,o))
+
+         for t,i,o in edges:
+             if t == 1 :
+                 arestasI += caminhoA.UnionBySize(i,o)
+             elif t == 2 :
+                 arestasI += caminhoB.UnionBySize(i,o)
+        # A ideia e que utilizando a uniao por tamnho, se ambos tiverem o mesmo tamanho, significa que 
+        # basta reduzir o numero de arestas no vetor das mesmas pelo contador que criamos
+        
+         if caminhoA.UnionBySize() < caminhoB.UnionBySize() :
+             return len(caminhoB) - arestasI
+         elif caminhoA.UnionBySize() > caminhoB.UnionBySize():
+             return len(caminhoA) - arestasI
+         elif caminhoA.UnionBySize() == caminhoB.UnionBySize() :
+             return len(edges) - arestasI
+         else :
+             return -1
+        
