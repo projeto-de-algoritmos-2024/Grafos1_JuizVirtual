@@ -33,7 +33,6 @@ Média [886. Possible Bipartition](https://leetcode.com/problems/possible-bipart
 Média [1557.Minimum Number of Vertices to Reach all Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)</br>
 ![Número Mínimo teste 1](/assets/PassandoCaso1.png)
 ![Número Mínimo teste 2](/assets/PassandoCaso2.png)
-![Submissão Aceita](/assets/SubmissaoAceita.png)
 Difícil [2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)</br>
 ![Maior Ciclo teste 1](/assets/MaiorTeste1.png)
 ![Maior Ciclo teste 1](/assets/MaiorTeste2.png)
