@@ -24,20 +24,24 @@
 
 [Vídeo explicando as questões 886 e 2360](https://youtu.be/Cz5IGTLF4xE?si=pq2T7x405-VpLEep)
 
+
 [Video explicando as questões 1557 e 1579](https://www.youtube.com/watch?v=II3VJ_Tu0Tk)
+=======
 
 ## Screenshots
 
 Média [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)</br>
-![bipartido teste 1](/assets/bipartiTeste1.png)
-![bipartido teste 2](/assets/bipartiTeste2.png)
+
+![bipartido teste 1](/assets/bipartiTeste1.png)</br>
+![bipartido teste 2](/assets/bipartiTeste2.png)</br>
 
 Média [1557.Minimum Number of Vertices to Reach all Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)</br>
 ![Número Mínimo teste 1](/assets/PassandoCaso1.png)
 ![Número Mínimo teste 2](/assets/PassandoCaso2.png)
 Difícil [2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)</br>
-![Maior Ciclo teste 1](/assets/MaiorTeste1.png)
-![Maior Ciclo teste 1](/assets/MaiorTeste2.png)
+![Maior Ciclo teste 1](/assets/MaiorTeste1.png)</br>
+![Maior Ciclo teste 1](/assets/MaiorTeste2.png)</br>
+
 
 Difícil [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/description/)</br>
 ![Remoção Máxima teste 1](/assets/RemocaoMaximaCaso1.png)
@@ -46,8 +50,8 @@ Difícil [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](http
 
 ## Instalação
 
-Linguagem = C
-Framework = Nenhum
+Linguagem = C </br>
+Framework = Nenhum</br>
 
 Para utilizar é recomendavel copiar os códigos e enviar no juiz virtual
 
