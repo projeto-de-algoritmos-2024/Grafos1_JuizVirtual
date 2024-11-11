@@ -42,4 +42,14 @@ class Solution:
          arestasI = 0 # esse e o contador de arestas que precisamos manter no grafo
         # nao sao nomes significativos a priori, mas t e para o tipo de aresta ou caminho,
         # i  e para onde ele se inicia e o refere-se ao objetivo do caminho
-         
+         for t,i,o in  edges :
+             if t == 3 :
+                 arestasI += (caminhoA.Union(i,o) | caminhoB.Union(i,o))
+         for t,i,o in edges :
+             if t == 1 :
+                 arestasI += caminhoA.Union(i,o)
+             elif t == 2 :
+                 arestasI += caminhoB.Union(i,o)
+         if caminhoB.isConnected() and caminhoA.isConnected() :
+             return len(edges) - arestasI
+         return -1
