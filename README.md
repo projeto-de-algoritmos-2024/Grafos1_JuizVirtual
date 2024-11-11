@@ -37,13 +37,22 @@ Difícil [2360. Longest Cycle in a Graph](https://leetcode.com/problems/longest-
 ![Maior Ciclo teste 1](/assets/MaiorTeste1.png)
 ![Maior Ciclo teste 1](/assets/MaiorTeste2.png)
 
+Difícil [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/description/)</br>
+![Remoção Máxima teste 1](/assets/RemocaoMaximaCaso1.png)
+![Remoção Máxima teste 2](/assets/RemocaoMaximaCaso2.png)
+![Remoção Máxima teste 3](/assets/RemocaoMaximaCaso3.png)
+
 ## Instalação
 
 Linguagem = C
 Framework = Nenhum
 
-Para ultilizar é recomendavel copiar os códigos e enviar no juiz virtual
+Para utilizar é recomendavel copiar os códigos e enviar no juiz virtual
 
+Linguagem = Python
+Framework = Nenhum
+
+Para utilizar basta ter o python3.x instalado, ou então copiar e colar o código no juiz virtual
 ## Uso
 
 ## Outros
