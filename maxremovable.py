@@ -4,54 +4,34 @@ from typing import List
 # descobri que para criar uma classe, o que sera necessario para fazer uma union find, eu preciso
 # criar uma instancia do mesmo, estava pesquisando sobre union find e nao estava entendo o que
 # eram os nomes precedidos por __, vi que serviam exatamente para esse proposito
-# usarei o que melhor entendi durante a pesquisa aqui no coigo antes de fazer minha solucao,
-# que foi o Union by size do site https://www.geeksforgeeks.org/introduction-to-disjoint-set-data-structure-or-union-find-algorithm/
-
+# usarei o que me parece o certo para solucionar o problema, que e por ranqueamento, usarei um UnionFind 
+# que encontrei que facilita de fazer o exercicio colocando o retorno do Union como 0 ou 1, possibilitando
+# o uso de um contador na solucao
 class UnionFind:
     def __init__(self,n):
-        # a partir disso criamos os vetores para os caminhos que apenas um dos lados podem percorrer
-        self.parent = list(range(n))
-
-        # inicia o vetor de tamanho em 1
-
-        self.Size = [1] * n
-
-    # funcao find usada para identificar o no principal ou raiz para o vetor que possuir o caminho i
-
-    def find(self,i) :
-        if self.parent[i] != i:
-            # aqui o algoritmo fornecido causa uma supressao do caminho, tornando i o pai do vetor,
-            # pelo que entendi, e necessario para funcionar o UnionFind
-            self.parent[i] = self.find(self.parent[i])
-            return self.parent[i]
-    # agora e a funcao de uniao por tamanho, nesse caso, a uniao obedece que o vetor menor sera incorporado
-    # no vetor maior, e o vetor maior aumentara seu tamanho igual ao numero de elementos do menor,
-    # se os tamanhos forem iguais, nao importa a ordem de uniao
-
-    def UnionBySize(self, i, j) :
-       # encontra os nos pais dos vetores i e j
-        irep = self.find(i)
-
-        jrep = self.find(j)
-
-        # terceira condicao(tamanhos iguais)
-        if irep == jrep :
-            return
-        # pegando o tamanho dos vetores
-        isize = self.Size[irep]
-        jsize = self.Size[jrep]
-
-        # condicao de uniao agora
-        if isize < jsize :
-            # move o vetor(descobri que chamam de arvore so agora, vou continuar com vetor)i para o vetor j
-            self.parent[irep] = jrep
-
-            # aumenta o tamanho do vetor j em i
-            self.Size[jrep] += self.Size[irep]
-        # caso seja o contrario
+        self.n = n
+        self.parent = [i for i in range(n + 1)]
+        self.rank = [1] * (n + 1)
+    
+    def find(self, x) :
+        while x != self.parent[x] :
+            self.parent[x] = self.parent[self.parent[x]]
+            x = self.parent[x]
+        return x
+    def Union(self, x, y) :
+        p1,p2 = self.find(x), self.find(y)
+        if p1 == p2 :
+            return 0
+        if self.rank[p1] > self.rank[p2] :
+            self.rank[p1] += self.rank[p2]
+            self.parent[p2] = p1
         else :
-            self.parent[jrep] = irep
-            self.Size[irep] += self.Size[jrep]
+            self.rank[p2] += self.rank[p1]
+            self.parent[p1] = p2
+        self.n -= 1
+        return 1
+    def isConnected(self) :
+        return self.n <= 1
 
 class Solution:
     def maxNumEdgesToRemove(self, n: int, edges: List[List[int]]) -> int:
@@ -62,24 +42,4 @@ class Solution:
          arestasI = 0 # esse e o contador de arestas que precisamos manter no grafo
         # nao sao nomes significativos a priori, mas t e para o tipo de aresta ou caminho,
         # i  e para onde ele se inicia e o refere-se ao objetivo do caminho
-         for t,i,o in edges :
-             if t == 3 :
-                 arestasI += (caminhoA.UnionBySize(i,o) | caminhoB.UnionBySize(i,o))
-
-         for t,i,o in edges:
-             if t == 1 :
-                 arestasI += caminhoA.UnionBySize(i,o)
-             elif t == 2 :
-                 arestasI += caminhoB.UnionBySize(i,o)
-        # A ideia e que utilizando a uniao por tamnho, se ambos tiverem o mesmo tamanho, significa que 
-        # basta reduzir o numero de arestas no vetor das mesmas pelo contador que criamos
-
-         if caminhoA.UnionBySize() < caminhoB.UnionBySize() :
-             return len(caminhoB) - arestasI
-         elif caminhoA.UnionBySize() > caminhoB.UnionBySize():
-             return len(caminhoA) - arestasI
-         elif caminhoA.UnionBySize() == caminhoB.UnionBySize() :
-             return len(edges) - arestasI
-         else :
-             return -1
-        
+         
