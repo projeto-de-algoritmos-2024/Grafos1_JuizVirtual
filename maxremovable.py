@@ -30,9 +30,9 @@ class UnionFind:
 
     def UnionBySize(self, i, j) :
        # encontra os nos pais dos vetores i e j
-        irep = self.find[i]
+        irep = self.find(i)
 
-        jrep = self.find[j]
+        jrep = self.find(i)
 
         # terceira condicao(tamanhos iguais)
         if irep == jrep :
@@ -73,7 +73,7 @@ class Solution:
                  arestasI += caminhoB.UnionBySize(i,o)
         # A ideia e que utilizando a uniao por tamnho, se ambos tiverem o mesmo tamanho, significa que 
         # basta reduzir o numero de arestas no vetor das mesmas pelo contador que criamos
-        
+
          if caminhoA.UnionBySize() < caminhoB.UnionBySize() :
              return len(caminhoB) - arestasI
          elif caminhoA.UnionBySize() > caminhoB.UnionBySize():
