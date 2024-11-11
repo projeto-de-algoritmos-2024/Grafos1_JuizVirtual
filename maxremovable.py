@@ -32,7 +32,7 @@ class UnionFind:
        # encontra os nos pais dos vetores i e j
         irep = self.find(i)
 
-        jrep = self.find(i)
+        jrep = self.find(j)
 
         # terceira condicao(tamanhos iguais)
         if irep == jrep :
