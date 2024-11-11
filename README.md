@@ -23,7 +23,7 @@
 ## Vídeo
 
 [Vídeo aqui](a)
-[Video da minha parte(Carlos)](https://www.youtube.com/watch?v=II3VJ_Tu0Tk)
+
 
 ## Screenshots
 
