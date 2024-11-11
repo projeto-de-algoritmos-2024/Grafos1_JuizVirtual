@@ -23,6 +23,7 @@
 ## Vídeo
 
 [Vídeo explicando as questões 886 e 2360](https://youtu.be/Cz5IGTLF4xE?si=pq2T7x405-VpLEep)
+
 [Video explicando as questões 1557 e 1579](https://www.youtube.com/watch?v=II3VJ_Tu0Tk)
 
 ## Screenshots
