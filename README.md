@@ -26,7 +26,7 @@
 
 
 [Video explicando as questões 1557 e 1579](https://www.youtube.com/watch?v=II3VJ_Tu0Tk)
-=======
+
 
 ## Screenshots
 
